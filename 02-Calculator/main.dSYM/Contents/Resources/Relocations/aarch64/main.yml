@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/morteza/Developer/Data_structures_and_C/02-Calculator/main'
+relocations:     []
+...
