@@ -1,12 +1,11 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-#define SIZE  20 
 #define STR_SIZE  12
 
 int main(void){
   char str[] = "Hello World!",tmp_c;
-  int k = STR_SIZE-1, tmp;
+  int k = STR_SIZE-1;
   for(int i = 0; i < STR_SIZE; i++){
     for(int j = 0; j < k; j++){
         tmp_c = str[j+1];
