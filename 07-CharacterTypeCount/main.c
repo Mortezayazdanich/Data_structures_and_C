@@ -14,9 +14,7 @@ int main(void){
   int len, vowels = 0, numerics = 0, consonants = 0, spaces = 0;
   
   printf("Enter a String(50 Chars):");
-  //scanf("%s",str);
   fgets(str, SIZE, stdin);
-  printf("\n%s\n",str);
   len = strlen(str);
   for(int i = 0; i < len; i++){
     if (isdigit(str[i])) {
